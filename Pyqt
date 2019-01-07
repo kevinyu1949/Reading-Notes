@@ -1,2 +1,7 @@
 [界面和逻辑分离]
 由.ui文件转化而来的.py文件被称为界面文件。新建用来调用的.py文件则成为逻辑文件
+Qt Designer的4种窗口布局方式：Vertical layout，Horizontal layout,Grid layout and Form layout
+
+1.如何将PyQt的.ui文件转化成.py文件?
+    将.ui文件进行保存，在windows的命令行底下输入： pyuic5 -o Test.py firstMainWin.ui
+    ’Test.py‘是转化得到的目标文件，’firstMainWin.ui‘是需要进行转化的UI文件
