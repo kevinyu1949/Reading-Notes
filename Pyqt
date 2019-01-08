@@ -5,3 +5,6 @@ Qt Designer的4种窗口布局方式：Vertical layout，Horizontal layout,Grid 
 1.如何将PyQt的.ui文件转化成.py文件?
     将.ui文件进行保存，在windows的命令行底下输入： pyuic5 -o Test.py firstMainWin.ui
     ’Test.py‘是转化得到的目标文件，’firstMainWin.ui‘是需要进行转化的UI文件
+
+
+推荐的Python书籍：《Python编程：从入门到实践》 《流畅的Python》
